@@ -76,7 +76,7 @@ export default function TheAnime({data}){
             <td>Rating</td>
             </tr>
             
-            <td>{data.data.title}</td>
+            <td>adas</td>
             <td>{data.data.episodes}</td>
             <td>{data.data.rating}</td>
             <tr><img src={data.data.images.jpg.image_url} width="300" height="400"/></tr>                        
