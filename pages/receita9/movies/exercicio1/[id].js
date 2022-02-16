@@ -1,10 +1,9 @@
-import { useRouter } from 'next/router'
 
 export default function TheAnime({data}){
     
-    const router = useRouter()
 
-    
+
+    const title = data.data.title
 
     return (
         
@@ -76,7 +75,7 @@ export default function TheAnime({data}){
             <td>Rating</td>
             </tr>
             
-            <td>adas</td>
+            <td>title</td>
             <td>{data.data.episodes}</td>
             <td>{data.data.rating}</td>
             <tr><img src={data.data.images.jpg.image_url} width="300" height="400"/></tr>                        
