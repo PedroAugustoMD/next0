@@ -114,12 +114,6 @@ export async function getStaticPaths(){
 
             {params: {id: "2994"}},
 
-            {params: {id: "37521"}},
-
-            {params: {id: "459"}},
-
-            {params: {id: "36511"}}
-
         ],
 
         fallback: true 
