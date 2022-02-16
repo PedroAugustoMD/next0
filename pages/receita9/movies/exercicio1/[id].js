@@ -1,8 +1,8 @@
-
+import { useRouter } from 'next/router'
 
 export default function TheAnime({data}){
     
-    if(data === undefined) return <div>Carregando...</div>
+    const router = useRouter()
 
     
 
